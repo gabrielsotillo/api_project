@@ -1,43 +1,82 @@
-[{      "id": 1,
+[
+    {
+        "id": 1,
         "title": "Avatar",
         "overview": "En un exuberante planeta llamado Pandora viven los Na'vi, seres que ...",
         "year": "2009",
         "rating": 7.8,
-        "category": "Action"    
+        "category": "Action"
     },
-    {   "id": 2,
+    {
+        "id": 2,
         "title": "Matrix",
-        "overview": "Un programador pirata recibe un día una misteriosa visita ...",
+        "overview": "Un programador pirata recibe un d\u00eda una misteriosa visita ...",
         "year": "1999",
         "rating": 7.9,
-        "category": "Action"    
+        "category": "Action"
     },
-    {   "id": 3,
+    {
+        "id": 3,
         "title": "Whiplash",
-        "overview": "Andrew Niemann, de 19 años, quiere ser el baterista de jazz más grande del mundo ...",
+        "overview": "Andrew Niemann, de 19 a\u00f1os, quiere ser el baterista de jazz m\u00e1s grande del mundo ...",
         "year": "2014",
         "rating": 8.5,
-        "category": "Drama"    
+        "category": "Drama"
     },
-    {   "id": 4,
+    {
+        "id": 4,
         "title": "Joker",
-        "overview": "Arthur Fleck vive en Gotham con su madre, y su única motivación en la vida es hacer reír a la gente ...",
+        "overview": "Arthur Fleck vive en Gotham con su madre, y su \u00fanica motivaci\u00f3n en la vida es hacer re\u00edr a la gente ...",
         "year": "2019",
         "rating": 8.0,
-        "category": "Drama"    
+        "category": "Drama"
     },
-    {   "id": 5,
+    {
+        "id": 5,
         "title": "Brave",
-        "overview": "Merida, la indómita hija del Rey Fergus y de la Reina Elinor, es una hábil arquera que decide ...",
+        "overview": "Merida, la ind\u00f3mita hija del Rey Fergus y de la Reina Elinor, es una h\u00e1bil arquera que decide ...",
         "year": "2012",
         "rating": 6.5,
-        "category": "Fantasy"    
+        "category": "Fantasy"
     },
-    {   "id": 6,
+    {
+        "id": 6,
         "title": "Her",
         "overview": "En un futuro cercano, Theodore, un hombre solitario a punto de divorciarse que trabaja en ...",
         "year": "2013",
         "rating": 7.5,
-        "category": "Drama"    
-    } 
+        "category": "Drama"
+    },
+    {
+        "id": 7,
+        "title": "Post",
+        "overview": "Esto es un POST de prueba ...",
+        "year": 2024,
+        "rating": 10.0,
+        "category": "Drama"
+    },
+    {
+        "id": 8,
+        "title": "Otro Post",
+        "overview": "Esto es otro POST de prueba ...",
+        "year": 2024,
+        "rating": 10.0,
+        "category": "Drama"
+    },
+    {
+        "id": 9,
+        "title": "Ciudad de Dios",
+        "overview": "Esto es otro POST de prueba ...",
+        "year": 2006,
+        "rating": 10.0,
+        "category": "Plomo"
+    },
+    {
+        "id": 10,
+        "title": "Ciudad del Diabolo",
+        "overview": "Esto es otro POST de prueba ...",
+        "year": 2007,
+        "rating": 10.0,
+        "category": "Plomo"
+    }
 ]
