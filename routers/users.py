@@ -1,30 +1,22 @@
-from fastapi import FastAPI
-from pydantic import BaseModel
+from fastapi import APIRouter
+from models import User
 
-app = FastAPI()
-
-class User (BaseModel): # BaseModel
-    id: int
-    name: str
-    surname: str
-    age: int
-    email: str
-    password: str
+router = APIRouter()
 
 
 users_list = [User(id=1, name="Gabriel", surname="Sotillo", age=30, email="gsotillo1193@gmail.com", password="skSFksd39w9"),
              User(id=2, name="Mario", surname="Otako", age=20, email="mariotako@gmail.com", password="cnX7uryuw5"),
              User(id=3, name="Elver", surname="Galarga", age=33, email="elvergalarga@gmail.com", password="L94d3ds9w9")]
 
-@app.get("/")
+@router.get("/")
 async def root():
     return {"message":"Hello, World!"}
 
-@app.get("/users")
+@router.get("/users")
 async def get_users():
     return users_list
 
-@app.get("/user/{id}")
+@router.get("/user/{id}")
 async def get_user(id: int):
     return search_user(id)
     
