@@ -1,7 +1,7 @@
 from fastapi import APIRouter
 from models import User
 
-router = APIRouter()
+router = APIRouter(tags=["users"])
 
 
 users_list = [User(id=1, name="Gabriel", surname="Sotillo", age=30, email="gsotillo1193@gmail.com", password="skSFksd39w9"),
